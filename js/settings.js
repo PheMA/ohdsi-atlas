@@ -95,7 +95,7 @@ const settingsObject = {
     "colvis": "assets/jquery.dataTables.colVis.min",
     "crossfilter": "https://cdnjs.cloudflare.com/ajax/libs/crossfilter2/1.4.1/crossfilter.min",
     "director": "assets/director.min",
-    "atlascharts": "https://unpkg.com/@ohdsi/atlascharts@1.5.0/dist/atlascharts.min",
+    "atlascharts": "../node_modules/@ohdsi/atlascharts/dist/atlascharts.min",
     "jnj_chart": "assets/jnj.chart", // scatterplot is not ported to separate library
     "lodash": "assets/lodash.4.15.0.full",
     "lscache": "assets/lscache.min",
@@ -134,12 +134,12 @@ const settingsObject = {
     "jquery.ui.autocomplete.scroll": "assets/jquery.ui.autocomplete.scroll",
     "facets": "assets/facets",
     "colorbrewer": "assets/colorbrewer",
-    "ohdsi-api": "https://unpkg.com/@ohdsi/ui-toolbox@1.0.2/lib/umd/api/index",
+    "ohdsi-api": "../node_modules/@ohdsi/ui-toolbox/lib/umd/api/index",
     // needed for @ohdsi/ui-toolbox Api
-    "urijs": "https://unpkg.com/urijs@1.19.1/src/URI",
-    "punycode": "https://unpkg.com/urijs@1.19.1/src/punycode",
-    "SecondLevelDomains": "https://unpkg.com/urijs@1.19.1/src/SecondLevelDomains",		
-    "IPv6": "https://unpkg.com/urijs@1.19.1/src/IPv6",
+    "urijs": "../node_modules/urijs/src/URI",
+    "punycode": "../node_modules/urijs/src/punycode",
+    "SecondLevelDomains": "../node_modules/urijs/src/SecondLevelDomains",		
+    "IPv6": "../node_modules/urijs/src/IPv6",
   },
   cssPaths: {
     "font-awesome.min.css": "styles/font-awesome.min.css",
